@@ -1,0 +1,186 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <span>&lt;/&gt;</span>
+        <h1>CodingHub</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="#">Project</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <!-- HERO SECTION -->
+      <section class="hero-section">
+        <div class="hero-text-box">
+          <p>WELCOME TO MY WORLD</p>
+          <h1 class="heading">
+            Hi, I'm <span>Muhammad Anas</span><br />
+            a Professional Coder.
+          </h1>
+          <p>
+            I build modern, responsive and user-friendly websites using HTML,
+            CSS,
+            <br />JavaScrip and Bootstrap. I enjoy turninng ideas into real web
+            experiences <br />
+            and continuously improving my skills through projects.
+          </p>
+          <div class="button-box">
+            <button class="first-btn">Hire me</button>
+            <button class="sec-btn">Download cv</button>
+          </div>
+        </div>
+        <div class="hero-profile-box">
+          <img src="profile.jpg" alt="profile" />
+          <div class="social-icons-box">
+            <div class="icon">
+              <a href=""><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <div class="icon">
+              <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+            <div class="icon">
+              <a href=""><i class="fa-brands fa-telegram"></i></a>
+            </div>
+            <div class="icon">
+              <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+            </div>
+            <div class="icon">
+              <a href=""><i class="fa-solid fa-envelope"></i></a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ABOUT SECTION -->
+      <section class="about-section">
+        <div class="about-heading">
+          <h1>About Me</h1>
+        </div>
+        <div class="about-content">
+          <p>
+            I am Anas, a passionate frontend developer who enjoys building
+            clean, responsive, and user-friendly websites. I have a strong
+            interest in web development and love turning ideas into real digital
+            experiences using HTML, CSS, and JavaScript. <br />
+            I also work with Bootstrap to build responsive layouts quickly and
+            efficiently. By combining modern web technologies with good design
+            practices, I focus on creating websites that are visually appealing,
+            fast, and accessible across different devices. <br />
+            I am constantly improving my skills by building projects and
+            exploring new technologies. In the future, I plan to expand my
+            expertise into mobile app development using Flutter, allowing me to
+            create both web and mobile applications.
+          </p>
+        </div>
+      </section>
+
+      <!-- SKILL SECTION -->
+      <section class="skill-section">
+        <div class="skill-heading">
+          <h1>My Stack</h1>
+        </div>
+        <div class="skill-box">
+          <div class="skill-card">
+            <div class="skill-logo">
+              <i class="fa-brands fa-html5" id="html"></i>
+              <h3>HTML5</h3>
+            </div>
+            <div class="prog-bar">96%</div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-logo">
+              <i class="fa-brands fa-css3-alt" id="css"></i>
+              <h3>CSS3</h3>
+            </div>
+            <div class="prog-bar">89%</div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-logo">
+              <i class="fa-brands fa-square-js" id="js"></i>
+              <h3>JavaScript</h3>
+            </div>
+            <div class="prog-bar">65%</div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-logo">
+              <i class="fa-brands fa-bootstrap" id="bootstrap"></i>
+              <h3>Bootstrap</h3>
+            </div>
+            <div class="prog-bar">80%</div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-logo">
+              <i class="fa-brands fa-react" id="react"></i>
+              <h3>React.JS</h3>
+            </div>
+            <div class="prog-bar">10%</div>
+          </div>
+
+          <div class="skill-card">
+            <div class="skill-logo">
+              <i class="fa-brands fa-github"></i>
+              <h3>GitHub</h3>
+            </div>
+            <div class="prog-bar">90%</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- CONTACT SECTION -->
+      <section class="contact-section">
+        <div class="contact-heading">
+          <h1>connect with me</h1>
+        </div>
+        <form action="#">
+          <div class="contact-box">
+            <input type="email" placeholder="Email" />
+          </div>
+          <div class="contact-box">
+            <input type="password" placeholder="password" />
+            <span>
+              <i class="fa-solid fa-eye"></i>
+            </span>
+          </div>
+          <div class="btn">
+            <button class="submit-btn">Submit</button>
+          </div>
+        </form>
+      </section>
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="footer-section">
+      <p>&copy; 2026 CodingHub. All rights are reserved.</p>
+      <p>contact me</p>
+    </footer>
+  </body>
+</html>

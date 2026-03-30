@@ -10,10 +10,12 @@ The goal of this challenge is to improve my web development skills by building p
 
 - HTML
 - CSS
+- JavaScript
+- Bootstrap
 
 ## Projects
 
-Day 01 – Portfolio Website
-Day 02 – Responsive Gym Website
+- Day 01 – Portfolio Website
+- Day 02 – Responsive Gym Website
 
 More projects coming soon...

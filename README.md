@@ -14,5 +14,6 @@ The goal of this challenge is to improve my web development skills by building p
 ## Projects
 
 Day 01 – Portfolio Website
+Day 02 – Responsive Gym Website
 
 More projects coming soon...

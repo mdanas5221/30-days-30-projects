@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --body-bg: #373753;
+  --container-bg: #1e2430;
+  --button-bg: #2a3342;
+  --font-color: #ffffff;
+  --btn-shadow:
+    12px 12px 24px rgba(10, 20, 40, 0.45),
+    -8px -8px 18px rgba(45, 65, 95, 0.18),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.03),
+    inset -2px -2px 4px rgba(0, 0, 0, 0.25);
+  --btn-hover: #1d2330;
+}
+
+[data-theme="light"] {
+  --body-bg: #f4f5f9;
+  --container-bg: #ffffff;
+  --button-bg: #eef0f5;
+  --font-color: #1f2430;
+  --card-shadow:
+    18px 18px 35px rgba(180, 185, 195, 0.45),
+    -12px -12px 24px rgba(255, 255, 255, 0.95),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.8),
+    inset -2px -2px 4px rgba(210, 215, 255, 0.4);
+  --btn-shadow:
+    6px 6px 12px rgba(200, 205, 215, 0.6),
+    -6px -6px 12px rgba(255, 255, 255, 0.9),
+    inset 2px 2px 4px rgba(255, 255, 255, 0.8),
+    inset -2px -2px 4px rgba(210, 215, 225, 0.4);
+  --btn-hover: #d9dde5;
+}
+
+body {
+  background: var(--body-bg);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s ease;
+}
+
+.container {
+  height: 550px;
+  width: 350px;
+  background: var(--container-bg);
+  box-shadow: var(--card-shadow);
+  border-radius: 30px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.input-box {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.input-box input {
+  width: 100%;
+  font-size: 40px;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: var(--font-color);
+  text-align: right;
+}
+
+.btn-box {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+button {
+  height: 60px;
+  width: 100%;
+  padding: 12px;
+  font-size: 25px;
+  border-radius: 15px;
+  font-weight: 550;
+  cursor: pointer;
+  border: none;
+  color: var(--font-color);
+  background: var(--button-bg);
+  box-shadow: var(--btn-shadow);
+  transition: 0.3s ease;
+}
+
+button:hover {
+  background: var(--btn-hover);
+}
+
+.operator {
+  color: #ff9500;
+}
+
+#equal-btn {
+  background: #f59e0b;
+  grid-column: span 2;
+}
+
+
+.theme-box{
+  width: 80%;
+  text-align: right;
+}
+
+img{
+  width: 80px;
+  cursor: pointer;
+}

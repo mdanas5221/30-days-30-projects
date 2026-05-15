@@ -16,6 +16,10 @@ The goal of this challenge is to improve my web development skills by building p
 ## Projects
 
 - Day 01 – Portfolio Website
-- Day 02 – Responsive Gym Website
+- Day 02 – Gym Website
+- Day 03 - Calculator
+- Day 04 - ToDo
+- Day 05 - Expense Tracker
+- Day 06 - Weather App
 
 More projects coming soon...

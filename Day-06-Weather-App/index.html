@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="logo-heading-box">
+        <img src="assets/logo.png" alt="image" class="logo" />
+        <h1>Weather App</h1>
+      </div>
+
+      <div class="input-box">
+        <i class="fa-solid fa-search search-icon"></i>
+        <input
+          type="text"
+          placeholder="Enter city name..."
+          id="search-city"
+          class="input"
+        />
+        <button id="search-btn">Search</button>
+      </div>
+
+      <div class="main-card">
+        <div class="main-card-info">
+          <h1 id="city-name"></h1>
+          <p class="day-date">Monday, 5 May 2026</p>
+          <h1 class="temperature upper-temp"></sup></h1>
+          <p class="msg"></p>
+        </div>
+
+        <div class="temp-image-box">
+          <img
+            src=""
+            alt="#"
+            class="temp-image"
+            id="weather-image"
+          />
+        </div>
+      </div>
+
+      <div class="secondary-card">
+        <div class="box">
+          <i class="fa-solid fa-droplet"></i>
+          <p>Humidity</p>
+          <h3 id="humidity"></h3>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-wind"></i>
+          <p>Wind</p>
+          <h3 id="wind"></h3>
+        </div>
+
+        <div class="box">
+          <i class="fa-solid fa-temperature-empty"></i>
+          <p>Feels Like</p>
+          <h3 class="temperature"></h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- SCRIPT TAG -->
+    <script src="app.js"></script>
+  </body>
+</html>
